@@ -38,3 +38,8 @@ alembic revision --autogenerate -m "migration message"
 ```
 
 *I used this README.md from my pet-project. in this repo it's useless*
+
+## python linter:
+```
+flake8 --exclude=./*venv
+```
