@@ -34,7 +34,7 @@ npm run webpack --colors --watch
 ## Generate migrations:
 ```
 cd server/
-alembic revision --autogenerate -m "added point and user tables"
+alembic revision --autogenerate -m "migration message"
 ```
 
 *I used this README.md from my pet-project. in this repo it's useless*
