@@ -25,10 +25,9 @@ alembic upgrade head
 ```
 server/main.py
 ```
-
-## webpack:
+## Node test
 ```
-npm run webpack --colors --watch
+npm run test
 ```
 
 ## Generate migrations:
