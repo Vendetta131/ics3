@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha || true"
+    "test": "mocha && jshint app1.js app2.js || true"
   },
   "repository": {
     "type": "git",
