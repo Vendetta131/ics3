@@ -1,9 +1,8 @@
-language: python, node_js
+language: python
 python:
   - "3.6-dev" # 3.6 development branch
 # command to install dependencies
-node_js:
-  - "8"
+
 install:
   - pip install -r requirements.txt
   - npm install
@@ -11,4 +10,4 @@ install:
 script:
 #  - pytest # or py.test for Python versions 3.5 and below
   - flake8 --exclude=./*venv
-  - npm run test
+  - npm test
