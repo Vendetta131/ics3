@@ -1,6 +1,6 @@
 from unittest import TestCase
-from unittest import main
 from unittest.mock import patch
+import unittest
 import main
 
 
@@ -29,4 +29,4 @@ class HandlerTests(TestCase):
 
 
 if __name__ == '__main__':
-    main()
+    unittest.main()
