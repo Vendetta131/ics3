@@ -13,3 +13,4 @@ script:
   - flake8 --exclude=./*venv
   - python -m unittest simpleTests mockTests
   - npm test
+  - python -m unittest mockTests.py simpleTests.py
