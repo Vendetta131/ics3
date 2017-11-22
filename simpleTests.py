@@ -66,6 +66,16 @@ class CalculatorTests(unittest.TestCase):
         result = self.instance.div(18, 3)
         self.assertEqual(result, 6, "expect result to be {}".format(6))
 
+    def test_add_0(self):
+        result = self.instance.add(0, 8)
+        self.assertEqual(result, 8, "expected result to be {}".format(8))
+
+    def test_add_str(self):
+        self.assertRaises(TypeError, self.instance.add, 0, "0")
+
+    def test_div_zero(self):
+        self.assertRaises(ZeroDivisionError, self.instance.div, 1, 0)
+
 
 if __name__ == '__main__':
     unittest.main()
