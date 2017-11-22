@@ -16,12 +16,14 @@ class TestCalculation(unittest.TestCase):
         result = absolute(self.positive_input)
 
         # check result
-        self.assertEqual(result, self.correct_result_for_positive_input, "expected result for postive input to be {}".format(self.positive_input))
+        self.assertEqual(result, self.correct_result_for_positive_input,
+                         "expected result for postive input to be {}".format(self.positive_input))
 
     def test_abs_returns_correct_number_for_negative_input(self):
         result = absolute(self.negative_input)
 
-        self.assertEqual(result, self.correct_result_for_negative_input, "expected result for negative input to be {}".format(self.negative_input))
+        self.assertEqual(result, self.correct_result_for_negative_input,
+                         "expected result for negative input to be {}".format(self.negative_input))
 
 
 class Calculator:
@@ -65,4 +67,3 @@ class CalculatorTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
