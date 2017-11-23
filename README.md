@@ -29,7 +29,10 @@ server/main.py
 ```
 npm run test
 ```
-
+## Git describe in app
+```
+node index.js
+```
 ## Generate migrations:
 ```
 cd server/

@@ -1,10 +1,8 @@
 const assert = require('chai').assert;
-const {gitDescribe, gitDescribeSync} = require('git-describe');
-const gitInfo = gitDescribeSync();
 
 const app = require('../app1');
 
-describe(`Test app version: ${gitInfo.raw}`, function() {
+describe('App', function() {
   describe('sayHello()', function() {
     it('sayHello should return string', function() {
       let result = app.sayHello();
