@@ -1,0 +1,5 @@
+.idea/*
+ics3_venv/*
+node_modules/*
+package-lock.json
+*.pyc

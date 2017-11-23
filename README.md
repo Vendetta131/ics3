@@ -25,12 +25,14 @@ alembic upgrade head
 ```
 server/main.py
 ```
-
-## webpack:
+## Node test
 ```
-npm run webpack --colors --watch
+npm run test
 ```
-
+## Git describe in app
+```
+node index.js
+```
 ## Generate migrations:
 ```
 cd server/
@@ -38,3 +40,8 @@ alembic revision --autogenerate -m "migration message"
 ```
 
 *I used this README.md from my pet-project. in this repo it's useless*
+
+## python linter:
+```
+flake8 --exclude=./*venv
+```

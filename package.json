@@ -1,0 +1,29 @@
+{
+  "name": "ics3",
+  "version": "0.0.1",
+  "description": "- install python3.6 - install node 6.x+",
+  "main": "app1.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha && jshint app1.js app2.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vendetta131/ics3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "chai": "^4.1.2",
+    "git-describe": "^4.0.2",
+    "mocha": "^4.0.1",
+    "nock": "^9.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Vendetta131/ics3/issues"
+  },
+  "homepage": "https://github.com/Vendetta131/ics3#readme"
+}
